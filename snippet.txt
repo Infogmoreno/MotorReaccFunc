@@ -1,4 +1,4 @@
-<model-viewer src="MotorReaccionRA.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" autoplay camera-orbit="1.15deg 94.94deg auto" exposure="1" environment-image="aircraft_workshop_01_1k.hdr">
+<model-viewer src="MotorReaccionRA.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="aircraft_workshop_01_1k.hdr" poster="poster.webp" shadow-intensity="1" autoplay animation-name="EsqueletoAction" exposure="1.47">
 
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
