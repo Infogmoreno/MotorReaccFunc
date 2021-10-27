@@ -45,28 +45,7 @@
       </div>
     </model-viewer>
     
-    <div
-        id="botones"
-        style="position: fixed; left: 200px; bottom: 50px; width:100%; text-align: center; z-index: 1;"
-      >
-        <button class="button" id="btn1" onclick="Play()">Reproducir</button>
-        <button class="button" id="btn2" onclick="stop()">pausar</button>
-      </div>
-    
-    <script type="text/javascript">
-                 
-                
-      function Play() {
-        const modelViewer = document.querySelector("#model-viewer");
-        modelViewer.play();
-      }
-        
-        function stop() {
-        const modelViewer = document.querySelector("#model-viewer");
-        modelViewer.pause();
-      }
- }
-    </script>
+   
 
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
