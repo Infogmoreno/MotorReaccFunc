@@ -48,18 +48,11 @@
       
       function Play() {
         const modelViewer = document.querySelector("#model-viewer");
-        // change animation names
-        const name = isRunning ? 'Action';
-        modelViewer.setAttribute("animation-name", name);
-        isRunning = !isRunning;
-        // increase crossfade speed mid-crossfade
-        setTimeout(() => {
-          modelViewer.setAttribute("animation-crossfade-duration", '300');
-        }, 500);
-        // reset crossfade
-        setTimeout(() => {
-          modelViewer.setAttribute("animation-crossfade-duration", '2000');
-        }, 2000);
+        modelViewer.play();
+        
+        function Stop() {
+        const modelViewer = document.querySelector("#model-viewer");
+        modelViewer.pause();
       }
 
     </script>
