@@ -27,7 +27,7 @@
         id="botones"
         style="position: fixed; left: 200px; bottom: 50px; width:100%; text-align: center; z-index: 1;"
       >
-        <button class="button" id="btn1" onclick="Separar()">Reproducir</button>
+        <button class="button" id="btn1" onclick="Play()">Reproducir</button>
         <button class="button" id="btn2" onclick="stop()">pausar</button>
       </div>
     
@@ -46,7 +46,7 @@
 
       };
       
-      function changeAnimation() {
+      function Play() {
         const modelViewer = document.querySelector("#model-viewer");
         // change animation names
         const name = isRunning ? 'Action';
